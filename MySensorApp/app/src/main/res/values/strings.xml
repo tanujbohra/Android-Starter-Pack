@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MySensorApp</string>
+    <string name="x_y_z">X:Y:Z</string>
+</resources>

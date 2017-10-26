@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.tanuj.bmiapp.Activity_two"
+    tools:showIn="@layout/activity_two">
+
+    <EditText
+        android:id="@+id/inputWeight_EditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="45dp"
+        android:ems="10"
+        android:hint="@string/enter_your_weight_in_kg"
+        android:inputType="textPersonName|numberDecimal"
+        android:textColorHint="#9e9e9e"
+        android:textColor="#ffffff"/>
+
+    <EditText
+        android:id="@+id/inputHeight_EditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/inputWeight_EditText"
+        android:layout_below="@+id/inputWeight_EditText"
+        android:layout_marginTop="62dp"
+        android:ems="10"
+        android:hint="@string/enter_your_height_in_metres"
+        android:inputType="textPersonName|numberDecimal"
+        android:textColorHint="#9e9e9e"
+        android:textColor="#ffffff"
+        />
+
+    <Button
+        android:id="@+id/calculateBMI_Button"
+        style="@android:style/Widget.Holo.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/inputHeight_EditText"
+        android:layout_below="@+id/inputHeight_EditText"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="60dp"
+        android:onClick="calculateBmiClicked"
+        android:text="@string/calculate_bmi" />
+
+    <TextView
+        android:id="@+id/yourBMI_TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/calculateBMI_Button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:text="@string/your_bmi"
+        android:textColor="#9e9e9e"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/result_TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/yourBMI_TextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp"
+        android:text="@string/result"
+        android:textSize="30sp"
+        android:textColor="#9e9e9e"/>
+
+
+</RelativeLayout>

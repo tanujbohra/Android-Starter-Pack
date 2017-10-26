@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tanuj.sharedpreferences.MainActivity">
+
+    <TextView
+        android:id="@+id/userNameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="46dp"
+        android:text="@string/username"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/userNameInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/userNameText"
+        android:layout_alignBottom="@+id/userNameText"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="11dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/passwordText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/userNameText"
+        android:layout_alignStart="@+id/userNameText"
+        android:layout_below="@+id/userNameInput"
+        android:layout_marginTop="33dp"
+        android:text="@string/password"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/passwordInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/passwordText"
+        android:layout_alignStart="@+id/userNameInput"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/saveInfoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/passwordText"
+        android:layout_below="@+id/passwordText"
+        android:layout_marginTop="113dp"
+        android:onClick="saveInfo"
+        android:text="@string/save_info" />
+
+    <Button
+        android:id="@+id/displayInfoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/passwordInput"
+        android:layout_alignTop="@+id/saveInfoButton"
+        android:layout_marginEnd="44dp"
+        android:onClick="displayData"
+        android:text="@string/display_info" />
+
+    <TextView
+        android:id="@+id/myText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/displayInfoButton"
+        android:layout_marginTop="68dp"
+        android:layout_toStartOf="@+id/displayInfoButton"
+        android:text="TextView"
+        android:textSize="24sp" />
+
+</RelativeLayout>

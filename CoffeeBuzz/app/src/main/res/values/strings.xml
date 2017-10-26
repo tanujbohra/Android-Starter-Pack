@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CoffeeBuzz</string>
+    <string name="app_logo">App Logo</string>
+    <string-array name="options">
+        <item>Coffee</item>
+        <item>Food</item>
+        <item>Others</item>
+    </string-array>
+    <string name="title_activity_drink">DrinkActivity</string>
+</resources>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="best_pizza">Best Pizza</string>
+    <string name="appicon">AppIcon</string>
+    <string name="the_name_says_its_the_best">The name says its the Best</string>
+    <string name="appicon_homepage">Appicon</string>
+    <string name="welcome_to_best_pizza">Welcome to Best Pizza</string>
+    <string name="title_activity_menu_items">MenuItems</string>
+    <string name="veg_pizza">Veg Pizza</string>
+    <string name="order_now">Order Now</string>
+    <string name="contains_onion_cheese">Contains onion, Cheese</string>
+    <string name="vegpizzaimage">vegPizzaImage</string>
+</resources>

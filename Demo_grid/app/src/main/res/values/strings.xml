@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Demo_grid</string>
+    <string name="textview_text">Hello</string>
+    <string name="button_text">Click_here</string>
+</resources>

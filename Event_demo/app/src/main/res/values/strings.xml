@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Event_demo</string>
+    <string name="TextView_text">Hello</string>
+</resources>

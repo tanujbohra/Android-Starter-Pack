@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Shared Preferences</string>
+    <string name="display_info">Display info</string>
+    <string name="username">Username :</string>
+    <string name="password">Password</string>
+    <string name="save_info">Save Info</string>
+</resources>

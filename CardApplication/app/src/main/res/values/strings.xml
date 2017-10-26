@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CardApplication</string>
+    <string name="action_settings">Settings</string>
+    <string name="pizza">Pizza</string>
+</resources>

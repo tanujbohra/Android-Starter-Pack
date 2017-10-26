@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyCheckBox</string>
+    <string name="tea">Tea</string>
+    <string name="milk">Milk</string>
+</resources>

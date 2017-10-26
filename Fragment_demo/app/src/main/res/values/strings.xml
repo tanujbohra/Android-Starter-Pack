@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Fragment_demo</string>
+    <string name="top_EditText_text">Click Here</string>
+</resources>

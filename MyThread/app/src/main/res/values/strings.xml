@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyThread</string>
+    <string name="click_here">Click here</string>
+    <string name="hello">Hello!</string>
+</resources>

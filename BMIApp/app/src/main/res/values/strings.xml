@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">BMIApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="bmi_calculator">BMI Calculator</string>
+    <string name="calculate_now">Calculate Now</string>
+    <string name="title_activity_two">Activity_two</string>
+    <string name="enter_your_weight_in_kg">Enter your weight in Kg</string>
+    <string name="enter_your_height_in_metres">Enter your height in metres</string>
+    <string name="calculate_bmi">Calculate BMI</string>
+    <string name="your_bmi">Your BMI</string>
+    <string name="result">Result</string>
+</resources>
