@@ -12,3 +12,11 @@ PIZZA store app that apparently has the best pizza:
 Payment Gateway integration:
 
 ![alt text](https://github.com/tanujbohra/Android-Starter-Pack/blob/master/git_images/payment_gateway.jpg)
+
+Login and Register with mysql and google integration:
+
+![alt text](https://github.com/tanujbohra/Android-Starter-Pack/blob/master/git_images/login.png)
+
+
+![alt text](https://github.com/tanujbohra/Android-Starter-Pack/blob/master/git_images/register.png)
+
