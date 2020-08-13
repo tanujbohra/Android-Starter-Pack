@@ -8,3 +8,7 @@ Chat App Built using firebase as a backend and Google sign in integration:
 PIZZA store app that apparently has the best pizza:
 
 ![alt text](https://github.com/tanujbohra/Android-Starter-Pack/blob/master/git_images/pizza_app.png)
+
+Payment Gateway integration:
+
+![alt text](https://github.com/tanujbohra/Android-Starter-Pack/blob/master/git_images/payment_gateway.jpg)
