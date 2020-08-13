@@ -15,7 +15,7 @@ Payment Gateway integration:
 
 Login and Register with mysql and google integration:
 
-![alt text](https://github.com/tanujbohra/Android-Starter-Pack/blob/master/git_images/login.png)
+![alt text](https://github.com/tanujbohra/Android-Starter-Pack/blob/master/git_images/login-new.png)
 
-![alt text](https://github.com/tanujbohra/Android-Starter-Pack/blob/master/git_images/register.png)
+![alt text](https://github.com/tanujbohra/Android-Starter-Pack/blob/master/git_images/register-new.png)
 
